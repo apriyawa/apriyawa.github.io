@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background-image: url(./hog.jpg);
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(158, 125, 125);
+    background-blend-mode: darken;
+}
+
+h1 {
+    margin: 0 10 20px 0;
+    font-size: 40px;
+    color: rgb(14, 2, 2);
+    font-family: 'Harry Potter', sans-serif;
+    letter-spacing: 3px;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.card {
+    width: 277px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 0 10px;
+    color: rgb(255, 255, 255);
+}
+
+.profile {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Mulish", sans-serif;
+    
+}
+
+.profile img {
+    width: 35%;
+    border-radius: 10px;
+    margin-left: 80px;
+}
+
+.profile p {
+    margin: 10px 0 0 0;
+    width: 100%;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.profile span {
+    margin-top: 8px;
+    width: 100%;
+    line-height: 25px;
+    color: #999999;
+    font-weight: 800;
+}
+
+h2#headerNames {
+	margin-top: 10%;
+	color: rgb(255, 255, 255);
+	font-family: 'Harry Potter', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+
+.button {
+	width: 150px;
+	margin: auto;
+	padding: 10px;
+	background: #0b0f0b;
+	border: 3px solid #fff;
+	border-radius: 10px;
+	color: rgb(255, 255, 255);
+	font-family: 'Harry Potter', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	display: block;
+	cursor: pointer;
+}
+
+#stopButton {
+	background: #ff0000;
+	display: none;
+}
+
+#timerWrapper {
+	margin: 50px 0;
+	color: #fff;
+	font-family: 'Harry Potter', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	opacity: 0;
+	transition: opacity 1s;
+}
+#timerWrapper.visible {
+	opacity: 1;
+}
+
